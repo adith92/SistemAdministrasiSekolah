@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0c554e" />
+  <meta name="description" content="SASapps — demo interaktif administrasi sekolah, portal siswa, dan layanan sekolah." />
+  <title>SASapps — Sekolah Swasta Nasional</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+  <div class="demo-strip"><span class="demo-dot"></span> DEMO MODE <span>·</span> Seluruh nama, tagihan, dan transaksi adalah data fiktif</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="SASapps beranda">
+      <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 44 44"><path d="M22 4 38 10v12c0 9-6.5 15.2-16 18C12.5 37.2 6 31 6 22V10l16-6Z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M14 18h16M14 23h16M14 28h10" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m18 12 4-3 4 3" fill="none" stroke="#d4aa54" stroke-width="2" stroke-linecap="round"/></svg></span>
+      <span><strong>SAS<span>apps</span></strong><small>School Administration System</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-label="Buka navigasi" aria-expanded="false">☰</button>
+    <nav class="public-nav" aria-label="Navigasi utama">
+      <a href="#home" data-page="home">Beranda</a><a href="#tentang" data-page="tentang">Tentang</a><a href="#visi" data-page="visi">Visi &amp; Misi</a><a href="#fasilitas" data-page="fasilitas">Fasilitas</a><a href="#berita" data-page="berita">Berita</a><a href="#kontak" data-page="kontak">Kontak</a>
+    </nav>
+    <a class="button button-dark header-cta" href="#portal" data-page="portal">Portal Demo <span aria-hidden="true">↗</span></a>
+  </header>
+  <main id="main" tabindex="-1"><div class="loading-state" role="status">Menyiapkan ruang demo…</div></main>
+  <footer class="site-footer"><a class="brand brand-footer" href="#home"><span class="brand-mark" aria-hidden="true">S</span><span><strong>SAS<span>apps</span></strong><small>Administrasi sekolah, lebih terhubung.</small></span></a><p>© 2026 SASapps Demo. Identitas sekolah masih berupa placeholder.</p><a href="#portal">Masuk ke portal <span aria-hidden="true">↗</span></a></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.mjs"></script>
+</body>
+</html>

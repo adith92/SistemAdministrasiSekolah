@@ -1,0 +1,21 @@
+- [x] Task: Define demo data and state transitions
+  - Acceptance: Pure functions support billing generation, partial payment, payment decisions, approval decisions, reset, and receipt verification.
+  - Verify: `node --test tests/*.test.mjs`
+  - Files: `dist/core.mjs`, `tests/core.test.mjs`
+- [x] Task: Build the public school experience
+  - Acceptance: Home, profile, vision, facilities, announcements, contact, and error/verification views are navigable and labeled as placeholders.
+  - Verify: Browser navigation and responsive inspection.
+  - Files: `dist/index.html`, `dist/styles.css`, `dist/app.mjs`
+- [x] Task: Build staff and student demo workflows
+  - Acceptance: All core demo actions update visible records, history, and local persistence.
+  - Verify: Unit tests plus browser workflows.
+  - Files: `dist/app.mjs`, `dist/core.mjs`, `dist/styles.css`
+- [x] Task: Document architecture and deployment limits
+  - Acceptance: README, demo data model, Render migration plan, and testing checklist are included.
+  - Verify: Review documents against the implemented behavior.
+  - Files: `README.md`, `docs/architecture.md`, `docs/data-model.md`, `docs/render-migration.md`, `docs/testing-checklist.md`
+- [ ] Task: Package and deploy privately
+  - Acceptance: A saved Site version is successfully published to its owner-only production URL.
+  - Verify: Sites deployment result and browser open.
+  - Files: `.openai/hosting.json`, `dist/`
+
